@@ -1,0 +1,50 @@
+# 依赖
+/node_modules
+/.pnp
+.pnp.js
+
+# 测试
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# 生产
+/build
+
+# 本地环境变量（包含敏感信息）
+.env*.local
+.env
+
+# 调试日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+db_debug.log
+
+# 数据库文件（包含敏感数据）
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+/.vscode
+/.idea
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 调试和迁移脚本
+check_*.js
+debug_*.js
+dump_*.js
+inspect_*.js
+migrate_*.js
+verify_*.js
+test_*.js
