@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // 1. 強制輸出為靜態網頁，跳過所有伺服器端資料庫檢查
-  output: 'export', 
+  
   images: { unoptimized: true },
 
   // 2. 徹底無視所有編譯錯誤與警告
