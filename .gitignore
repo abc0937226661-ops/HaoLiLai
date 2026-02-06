@@ -48,3 +48,4 @@ inspect_*.js
 migrate_*.js
 verify_*.js
 test_*.js
+.vercel

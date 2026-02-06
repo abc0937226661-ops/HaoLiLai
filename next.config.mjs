@@ -6,10 +6,9 @@ const nextConfig = {
 
   // 2. 徹底無視所有編譯錯誤與警告
   typescript: {
-    ignoreBuildErrors: true,
+  
   },
   eslint: {
-    ignoreDuringBuilds: true,
   },
 
   // 3. 保留你原本需要的實驗性設定
@@ -20,7 +19,6 @@ const nextConfig = {
   },
 
   // 4. 跳過所有靜態頁面生成時的錯誤（關鍵！）
-  staticPageGenerationTimeout: 1000,
 };
 
 export default nextConfig;
