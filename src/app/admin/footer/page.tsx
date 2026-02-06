@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { getAdminFooterSections, getAdminFooterLinks, getAdminFooterConfig } from "@/actions/footer-actions";
 import FooterAdminPage from "@/components/admin/FooterAdminPage";
 

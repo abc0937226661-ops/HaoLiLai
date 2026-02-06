@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { getAdminNews } from "@/actions/news-actions";
 import NewsAdminPage from "@/components/admin/NewsAdminPage";
 

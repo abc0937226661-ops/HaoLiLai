@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { getAdminGames } from "@/actions/game-actions";
 import GameAdminPage from "@/components/admin/GameAdminPage";
 

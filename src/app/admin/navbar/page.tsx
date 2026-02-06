@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { getAdminNavbarItems } from "@/actions/navbar-actions";
 import NavbarAdminPage from "@/components/admin/NavbarAdminPage";
 
